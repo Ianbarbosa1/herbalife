@@ -1,0 +1,95 @@
+@media screen and (min-width: 350px) and (max-width:479px) {
+    .menu img, footer img{
+        height:40px;
+        margin: 5px 0px;
+    }
+    .container-titulo{
+        bottom: 180px;
+        font-size: 40px;
+        padding: 0px 10px;
+    }
+    .produto{
+        padding: 20px 10px;
+        width: 340px;
+        gap: 15px;
+        flex-direction: column;
+    }
+    .p1{
+        height: 400px;
+        width: 300px;
+    }
+    .descricao{
+        gap: 15px;
+        padding: 10px;
+    }
+    .texto{
+        font-size: 16px;
+    }
+    footer{
+        padding: 0px 2px;
+    }
+    footer p{
+        font-size: 13px;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width:689px) {
+    .menu img, footer img{
+        height:50px;
+    }
+    .container-titulo{
+        bottom: 200px;
+        font-size: 40px;
+        padding: 0px 10px;
+    }
+    .produto{
+        padding: 20px 10px;
+        width: 460px;
+        gap: 15px;
+        flex-direction: column;
+    }
+    .p1{
+        height: 400px;
+        width: 300px;
+    }
+    .descricao{
+        gap: 15px;
+        padding: 10px;
+    }
+    .texto{
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width:690px) and (max-width:849px) {
+    .menu img{
+        height:60px;
+    }
+    .container-titulo{
+        bottom: 350px;
+        font-size: 50px;
+        padding: 0px 20px;
+    }
+    .produto{
+        padding: 30px 10px;
+        width: 680px;
+        gap: 15px;
+    }
+    .p1{
+        height: 400px;
+        width: 300px;
+    }
+    .descricao{
+        gap: 15px;
+    }
+    .texto{
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width:850px) and (max-width:1000px) {
+    .produto{
+        padding: 30px 10px;
+        width: 840px;
+    }
+}
