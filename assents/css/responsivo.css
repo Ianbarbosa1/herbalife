@@ -4,9 +4,10 @@
         margin: 5px 0px;
     }
     .container-titulo{
-        bottom: 180px;
-        font-size: 40px;
-        padding: 0px 10px;
+        padding: 0px;
+    }
+    .container-titulo h1{
+        font-size: 35px;
     }
     .produto{
         padding: 20px 10px;
@@ -38,9 +39,10 @@
         height:50px;
     }
     .container-titulo{
-        bottom: 200px;
-        font-size: 40px;
         padding: 0px 10px;
+    }
+    .container-titulo h1{
+        font-size: 40px;
     }
     .produto{
         padding: 20px 10px;
@@ -66,9 +68,10 @@
         height:60px;
     }
     .container-titulo{
-        bottom: 350px;
-        font-size: 50px;
         padding: 0px 20px;
+    }
+    .container-titulo h1{
+        font-size: 50px;
     }
     .produto{
         padding: 30px 10px;
