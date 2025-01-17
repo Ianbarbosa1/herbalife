@@ -19,12 +19,14 @@ header{
     background-position: center;
     background-size: cover;
 }
-.menu{
-    background-image: linear-gradient(to bottom, transparent, rgba(255, 255, 255, 0.568));
-}
+
 .menu img, footer img{
     height: 80px;
     filter: drop-shadow(0px 0px 5px white);
+}
+.menu img{
+    border-bottom: 2px solid rgb(61, 153, 113);
+    padding: 0px 20px;
 }
 .container-titulo{
     height: 100vh;
@@ -37,6 +39,7 @@ header{
     font-size: 60px;
     font-weight: 400;
     color: white;
+    backdrop-filter: blur(2px);
 }
 .container-titulo span{
     color: rgb(61, 153, 113);
